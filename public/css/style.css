@@ -1,0 +1,58 @@
+/* color */
+.bg-pink{
+    background-color: #F489C1;
+}
+
+.green-kemenkes{
+    color: #15ADA7;
+}
+
+.btn-green-kemenkes{
+    background-color: #15ADA7;
+}
+
+#bg-ornament-top{
+    position: absolute;
+    margin-top: -150px;
+    z-index: 1;
+}
+
+.main-content{
+    margin-top: -80px;
+}
+
+.main-content .row{
+    min-height: 100vh;
+}
+
+.cover-image{
+    max-height: 350px;
+}
+
+.login-form{
+    margin-top: 250px;
+}
+
+@media all and (max-width: 768px){
+    .main-content-left{
+        background-color: #F489C1;
+    }
+
+    .main-content .row{
+        min-height: 50vh;
+    }
+
+    .cover-image{
+        max-height:200px;
+    }
+
+    .login-form{
+        margin-top: 50px;
+    }
+
+    .main-tittle{
+        color: #fff;
+    }
+
+
+}
